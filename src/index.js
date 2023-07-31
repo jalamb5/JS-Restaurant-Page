@@ -1,1 +1,3 @@
-console.log('working');
+import renderHome from './home.js';
+
+renderHome()

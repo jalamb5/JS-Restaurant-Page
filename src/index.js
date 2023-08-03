@@ -1,4 +1,6 @@
 import renderHome from './home.js';
+import renderMenu from './menu.js';
+import renderContact from './contact.js';
 import renderTabBar from './tabBar.js';
 import clear from './clear.js';
 
@@ -10,6 +12,15 @@ homeButton.onclick = () => {
   clear();
   renderHome();
 };
-// event listener for click -> renderMenu
 
-// event listener for click -> renderContact
+let menuButton = document.getElementById('menu');
+menuButton.onclick = () => {
+  clear();
+  renderMenu();
+};
+
+let contactButton = document.getElementById('contact');
+contactButton.onclick = () => {
+  clear();
+  renderContact();
+};

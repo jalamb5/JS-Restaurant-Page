@@ -24,7 +24,7 @@ function renderHome() {
   image.src = "assets/IMG_2392.jpeg";
 
   const tagLine = document.createElement('p');
-  tagLine.textContent = "At Old Tom's Country Life Pub, we have all the great ales, traditional English fare, and the world's best catnip";
+  tagLine.textContent = "At Old Tom's Country Life Pub we have all the great ales, traditional English fare, and the world's best catnip";
 
   content.appendChild(title);
   content.appendChild(image);

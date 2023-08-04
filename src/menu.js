@@ -16,7 +16,7 @@ function renderMenu() {
     entry.appendChild(document.createTextNode(element));
     foodList.appendChild(entry);
   };
-  
+
   const beer = document.createElement('h2');
   beer.textContent = "Beers";
 
@@ -28,10 +28,13 @@ function renderMenu() {
     beerList.appendChild(entry);
   };
 
+  const catNip = document.createElement('h3');
+  catNip.textContent = "Complimentary catnip!";
 
   content.appendChild(title);
   content.appendChild(food);
   content.appendChild(foodList);
   content.appendChild(beer);
   content.appendChild(beerList);
+  content.appendChild(catNip);
 }

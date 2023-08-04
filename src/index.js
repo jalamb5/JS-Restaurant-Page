@@ -3,6 +3,7 @@ import renderMenu from './menu.js';
 import renderContact from './contact.js';
 import renderTabBar from './tabBar.js';
 import clear from './clear.js';
+import css from "../dist/assets/style.css";
 
 renderTabBar();
 renderHome();
